@@ -1,0 +1,35 @@
+h1,
+#playerResult,
+#computerResult,
+#gameResult,
+#endGame,
+#restartGame {
+display: flex;
+justify-content: center;
+align-items: center;
+color:beige;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+body {
+    background-color: black;
+}
+
+#endGame {
+    font-size: 36px;
+}
+
+#restartGame {
+    font-size: 24px;
+}
+
+.playAgain {
+display: none;
+visibility: hidden;
+}
